@@ -12,3 +12,8 @@ artifacts:
   files:
     - target/restful-service.jar
   discard-paths: yes
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: prod  
